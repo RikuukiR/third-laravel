@@ -24,7 +24,8 @@
                             <a class="header-nav__link" href="/mypage">マイページ</a>
                         </li>
                         <li class="header-nav__item">
-                            <form>
+                            <form class="form" action="/logout" method="post">
+                                <!-- class="form"を追加 -->
                                 <button class="header-nav__button">ログアウト</button>
                             </form>
                         </li>
